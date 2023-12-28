@@ -1,62 +1,40 @@
-# TravelerJournals Hub WordPress Theme
+# Gym Essentials Shop
 
-This repository contains the files for a WordPress theme designed for a traveler's journal hub website.
+Gym Essentials Shop Logo
 
-## File and Directory Overview
+Welcome to the Gym Essentials Shop website repository! 🏋️‍♂️
 
-### Directories
+## Project Overview
 
-- **`bxslider-4-master/`**: Contains the BXSlider library for implementing image sliders on the website.
+This repository hosts the source code for Gym Essentials Shop—a dynamic and user-friendly website aimed at showcasing and selling high-quality gym essentials. From workout gear to supplements, we've got everything you need to enhance your fitness journey.
 
-- **`css/`**: Stores stylesheets for the project.
+## Project Structure
 
-- **`image/`**: Holds images related to the website.
-
-- **`js/`**: Contains JavaScript files for additional functionalities.
-
-- **`template-parts/`**: Includes template parts for different sections of the website.
-
-### PHP Files
-
-- **`functions.php`**: Contains PHP functions and custom functionality for WordPress.
-
-- **`header.php`**: Defines the header section of the website.
-
-- **`footer.php`**: Defines the footer section of the website.
-
-- **`sidebar.php`**: Implements the sidebar section of the website.
-
-- **`index.php`**: Main template file used to display content.
-
-- **`front-page.php`**: Template file for the front page of the website.
-
-- **`single.php`**: Template file for displaying a single post.
-
-- **`category.php`**: Template file for displaying a category archive.
-
-- **`page.php`**: Default template file for pages.
-
-- **`page-no-sidebar.php`**: Template file for pages without a sidebar.
-
-- **`page-what-visit.php`**: Custom template file for a specific page.
-
-### Other Files
-
-- **`style.css`**: Main stylesheet for styling the website.
-
-- **`screenshot.png`**: Screenshot of the website.
-
-## Usage
-
-This WordPress theme is designed for a traveler's journal hub. Customize and extend the functionality as needed for your specific project.
-
-## Additional Notes
-
-- Ensure that WordPress is properly configured with these files.
-
-- The `bxslider-4-master/` directory contains the BXSlider library for creating image sliders. Adjust settings as needed.
-
-- Customize styles in the `css/` directory according to your design preferences.
-
-- JavaScript files in the `js/` directory handle additional functionalities.
-
+```plaintext
+- **CSS/**: Stylesheets for the website.
+- **images/**: Images used in the project.
+- **img/**: Additional image resources.
+- **inc/**: Includes directory for PHP files.
+- **js/**: JavaScript files for dynamic functionality.
+- **template-parts/**: Template parts for modular code organization.
+  - archive-classes.php: Displays archived classes.
+  - author.php: Author information template.
+  - category.php: Displays posts by category.
+  - footer.php: Footer template.
+  - front-page.php: Home page template.
+  - functions.php: Custom functions and hooks.
+  - header-front.php: Header template for the home page.
+  - header.php: Default header template.
+  - home.php: Home page content.
+  - index.php: Default index template.
+  - page-gallery.php: Gallery page template.
+  - page-with-sidebar.php: Page template with a sidebar.
+  - page.php: Default page template.
+  - sidebar.php: Sidebar template.
+  - single-classes.php: Single class post template.
+  - single.php: Default single post template.
+- LICENSE: Project license.
+- LICENSE.txt: License text file.
+- readme.md: Project documentation (you are here!).
+- screenshot.png: A screenshot of the website.
+- style.css: Main stylesheet for the website.
